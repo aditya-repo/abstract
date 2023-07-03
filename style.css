@@ -23,13 +23,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 8px;
+    padding: 9px 8px;
 }
 .hero a{
     padding: 2px 8px;
     color: #fff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 23px;
 }
 nav ul{
     display: flex;
@@ -66,7 +66,94 @@ nav ul li:nth-child(2) a:hover{
     background-color: #ffffff;
     color: #000;
 }
+.search_bar{
+    height: 397px;
+    width: 100%;
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_bar .heading{
+    padding: 0 12px;
+    width: 720px;
+}
+.search_bar .heading h1{
+    font-size: 68px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+.search_bar .heading input[type=text]{
+    width: 100%;
+    outline: none;
+    border: 1px solid #4C5FD5;
+    font-size: 18px;
+    border-radius: 4px;
+    height: 64px;
+    
+}
+.search_bar .heading input,button{
+    padding: 16px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+form i{
+    right: 16px;
+    font-weight: lighter;
+    position: absolute;
+}
+.service{
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    padding-top: 72px;
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+  }
 
+.column {
+    flex-basis: calc(50% - 10px);
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card img{
+    width: 125px;
+    height: 100%;
+    padding: 16px;
+}
+.content h2{
+    padding: 16px 0;
+    font-weight: bolder;
+}
+.content p{
+    letter-spacing: 1.25px;
+    font-size: 20px;
+    padding: 16px 0;
+}
+.learn_button{
+    text-decoration: none;
+    color: #4C5FD5;
+    font-size: 18px 0;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.learn_button i{
+    font-size: 12px;
+}
 @media screen and (max-width: 771px) {
     nav{
         width: 100%;
@@ -74,4 +161,5 @@ nav ul li:nth-child(2) a:hover{
     nav ul{
         display: none;
     }
+
 }
