@@ -4,7 +4,7 @@
 <p><a href="https://adityaraj.cc">Click here</a> to visit my project portfolio webiste</p>
 
 <ul>
-  <li>create html file</li>
-  <li>make navigation and then make css file</li>
-  <li>body then footer and implement the css</li>
+  <li>Step 1 : created html file</li>
+  <li>Step 2 : Developed navigation part and then created css file</li>
+  <li>Step3 : Created Body then footer and implemented the css</li>
 </ul>
