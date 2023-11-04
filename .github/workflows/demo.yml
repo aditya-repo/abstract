@@ -1,8 +1,10 @@
-name: abstarct
-'on': push
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  my-job:
+  deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World!"
